@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(224, 146, 0);
+}
+section
+{
+    width: 250px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    height: 515px;
+    box-shadow: 0px 0px 5px black;
+}
+div#img > img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+div#form > h1
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+div#form > p
+{
+    font-size: 14px;
+    padding: 10px;
+}
+
+span.material-symbols-outlined
+{
+    color: white;
+}
+input#iemail, input#isenha
+{
+    transform: translate(5px, -4.5px);
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 3px 2px 3px;
+    
+}
+p#psenha, p#pemail
+{
+    margin: auto;
+    display: block;
+    background-image: linear-gradient(to right, black, orange, orange, orange);
+    margin-top: 2px;
+    padding: 7px 3px 0px 5px;
+    width: 228px;
+    border-radius: 5px;
+    height: 30px;
+}
+input#esqueci, input#enviar
+{
+    padding: 9px;
+    width: 233px;
+    margin-top: 2.5px;
+    display: inline;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+}
+p#pbot
+{
+    text-align: center;
+}
+input#enviar
+{
+    color: white;
+    background-color: rgb(104, 67, 0);
+    border-color: rgb(104, 67, 0);
+}
+input#esqueci
+{
+    background-color: white;
+    border-color: rgb(104, 67, 0);
+    color: rgb(104, 67, 0);
+}
+input#enviar:hover
+{
+    color: white;
+    background-color: rgb(36, 23, 0);
+    border-color: rgb(36, 23, 0);
+    transition: 0.3s;
+}
+input#esqueci:hover
+{
+    background-color: rgba(104, 68, 0, 0.274);
+    border-color: rgb(104, 67, 0);
+    color: rgb(104, 67, 0);
+    transition: 0.3s;
+    
+}

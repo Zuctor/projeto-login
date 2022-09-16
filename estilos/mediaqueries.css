@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px)
+{
+    body,html
+    {
+        background-image: linear-gradient(to top, orange, black);
+    }
+    section
+    {
+        height: 280px;
+        width: 80vw;
+        max-width: 800px;
+    }
+    div
+    {
+        display: inline-block;
+    }
+    div#img
+    {
+        height: 100%;
+    }
+    div#img > img
+    {
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        width: 100%;
+    }
+    div#img
+    {
+        width: 200px;
+    }
+    div#form
+    {
+        position: absolute;
+        background-color: white;
+        border-radius: 0px 20px 20px 0px;  
+        height: 100%;
+    }
+    p#pbot
+    {
+        margin-top: 2px;
+        text-align: center;
+    }
+    input#esqueci, input#enviar
+    {
+        display: inline-block;
+        width: 96%;
+    }
+    p#psenha, p#pemail
+    {
+        width: 94%;
+    }
+    input#iemail, input#isenha
+    {
+        width: 90%;
+    }
+}
